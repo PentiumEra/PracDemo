@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/contentprovider" />
             <option value="$PROJECT_DIR$/pracbroadcast" />
+            <option value="$PROJECT_DIR$/prachandler" />
             <option value="$PROJECT_DIR$/pracservice" />
           </set>
         </option>

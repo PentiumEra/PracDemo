@@ -1,1 +1,1 @@
-include ':app', ':pracbroadcast', ':pracservice', ':contentprovider'
+include ':app', ':pracbroadcast', ':pracservice', ':contentprovider', ':prachandler'

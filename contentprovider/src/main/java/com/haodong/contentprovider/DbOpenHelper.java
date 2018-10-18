@@ -14,8 +14,8 @@ public class DbOpenHelper extends SQLiteOpenHelper {
     private String CTEATE_USER_TABLE = "CREATE TABLE IF NOT EXISTS" + USER_TABLE_NAME + "(_id INTEGER PRIMARY KEY," + "name TEXT," + "sex INT)";
 
 
-    public DbOpenHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
-        super(context,DB_NAME, factory, DB_VERSION);
+    public DbOpenHelper(Context context) {
+        super(context,DB_NAME, null, DB_VERSION);
     }
 
     @Override
