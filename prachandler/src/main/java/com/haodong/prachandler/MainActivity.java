@@ -14,6 +14,13 @@ import butterknife.BindView;
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.tv_1_handler)
     TextView tv1;
+    private static Handler newHandler;
+
+    static {
+        newHandler = new Handler();
+    }
+
+
     private final NewHandler myHandler = new NewHandler(this, tv1);
 
 

@@ -36,4 +36,5 @@ dependencies {
     api 'com.jakewharton:butterknife:8.5.1'
     // noinspection GradleDependency
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    api 'com.jakewharton:disklrucache:2.0.2'
 }
